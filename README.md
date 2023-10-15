@@ -38,6 +38,7 @@ Commands:
 
 1. graph_hash - create graph and hash.
 
+<pre>
 Usage:
     Create graph and hash:
         -numVertices <number of vertices>
@@ -54,13 +55,15 @@ Usage:
         [-load <graph load file>]
         [-verbose]
         [-numThreads <number of threads (default=1)>]
-        
+</pre>
+
 Notes: 
 
 See graphHashDriver.cpp as example of how to create a graph.
 
 2. graph_isomorph_tester - graph isomorphism tests.
 
+<pre>
 Usage:
     Generate graphs:
             -tests <number of graph tests>
@@ -73,12 +76,15 @@ Usage:
     Load graphs:
             -load1 <graph1 load file> -load2 <graph2 load file>
             [-numThreads <number of threads (default=1)>]
+</pre>
 
 3. graph_hash_special_tester - special test cases.
 
+<pre>
 Usage:
         graphHashBug1Tester "graph1" | "graph2"
 |       graphHashBug2Tester "graph1" | "graph2"
 |       graphHashRegularGraphTester
 |       graphHashCaseTester
 |       graph_ge <random seed> <number of vertices> <vertex degree>
+</pre>
