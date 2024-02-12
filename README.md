@@ -38,24 +38,24 @@ Commands:
 
 1. graph_hash - create graph and hash.
 
-<pre>
+```
 Usage:
     Create graph and hash:
-        -numVertices &lt;number of vertices&gt;
-        -numEdges &lt;number of edges&gt;
-        [-labelVertices &lt;none (default) | unique | random&gt;]
-        [-labelEdges &lt;none (default) | unique | random&gt;]
+        -numVertices <number of vertices>
+        -numEdges <number of edges>
+        [-labelVertices <none (default) | unique | random>]
+        [-labelEdges <none (default) | unique | random>]
         [-directed (directed graph)]
-        [-structureRandomSeed &lt;graph structure random seed&gt;]
-        [-labelRandomSeed &lt;label random seed&gt;]
-        [-save &lt;graph save file&gt;]
+        [-structureRandomSeed <graph structure random seed>]
+        [-labelRandomSeed <label random seed>]
+        [-save <graph save file>]
         [-verbose]
-        [-numThreads &lt;number of threads (default=1)&gt;]
+        [-numThreads <number of threads (default=1)>]
     Load graph and create hash:
-        [-load &lt;graph load file&gt;]
+        [-load <graph load file>]
         [-verbose]
-        [-numThreads &lt;number of threads (default=1)&gt;]
-</pre>
+        [-numThreads <number of threads (default=1)>]
+```
 
 Notes: 
 
@@ -63,28 +63,28 @@ See graphHashDriver.cpp as example of how to create a graph.
 
 2. graph_isomorph_tester - graph isomorphism tests.
 
-<pre>
+```
 Usage:
     Generate graphs:
-            -tests &lt;number of graph tests&gt;
-            -numVertices &lt;number of vertices&gt;
-            -numEdges &lt;number of edges&gt;
+            -tests <number of graph tests>
+            -numVertices <number of vertices>
+            -numEdges <number of edges>
             [-directed (directed graph)]
-            [-structureRandomSeed &lt;graph structure random seed&gt;]
+            [-structureRandomSeed <graph structure random seed>]
             [-isomorphic (generate isomorphic graphs)]
-            [-numThreads &lt;number of threads (default=1)&gt;]
+            [-numThreads <number of threads (default=1)>]
     Load graphs:
-            -load1 &lt;graph1 load file&gt; -load2 &lt;graph2 load file&gt;
-            [-numThreads &lt;number of threads (default=1)&gt;]
-</pre>
+            -load1 <graph1 load file> -load2 <graph2 load file>
+            [-numThreads <number of threads (default=1)>]
+```
 
 3. graph_hash_special_tester - special test cases.
 
-<pre>
+```
 Usage:
         graphHashBug1Tester "graph1" | "graph2"
 |       graphHashBug2Tester "graph1" | "graph2"
 |       graphHashRegularGraphTester
 |       graphHashCaseTester
-|       graph_ge &lt;random seed&gt; &lt;number of vertices&gt; &lt;vertex degree&gt;
-</pre>
+|       graph_ge <random seed> <number of vertices> <vertex degree>
+```
